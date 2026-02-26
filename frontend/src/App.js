@@ -23,17 +23,20 @@ const Home = () => {
   return (
     <div>
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Welcome to 44scout</p>
-            <p>Make yourself known worldwide</p>
-      </header>
+  {/* Replace the link to Emergent with your site or remove it completely */}
+  <a className="App-link" href="/" target="_self" rel="noopener noreferrer">
+    {/* Replace this with your logo */}
+    <img 
+      src="%PUBLIC_URL%/images/my-logo.png" 
+      alt="44Scout Logo" 
+      style={{ width: '120px', height: 'auto' }} // Adjust size if needed
+    />
+  </a>
+
+  {/* Replace with your custom text */}
+  <p className="mt-5">Welcome to 44Scout</p>
+  <p>Track and manage scouts with ease, globally.</p>
+</header>
     </div>
   );
 };
