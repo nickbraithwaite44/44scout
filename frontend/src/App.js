@@ -25,11 +25,9 @@ const Home = () => {
   <header className="App-header">
   {/* Logo linking to your homepage */}
   <a className="App-link" href="/">
-    <img 
-      src="%PUBLIC_URL%/images/my-logo.png" 
-      alt="44Scout Logo" 
-      style={{ width: '120px', height: 'auto' }} 
-    />
+    <header>
+  <img src="assets/logo.png" alt="44scout Logo" id="logo">
+</header>
   </a>
 
   {/* Your custom text */}
