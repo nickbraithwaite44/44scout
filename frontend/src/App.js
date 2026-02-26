@@ -22,8 +22,8 @@ const Home = () => {
 
   return (
     <div>
-      <header className="App-header">
-  {/* Clickable logo that goes to homepage */}
+  <header className="App-header">
+  {/* Logo linking to your homepage */}
   <a className="App-link" href="/">
     <img 
       src="%PUBLIC_URL%/images/my-logo.png" 
@@ -32,9 +32,9 @@ const Home = () => {
     />
   </a>
 
-  {/* Custom text */}
+  {/* Your custom text */}
   <p className="mt-5">Welcome to 44Scout</p>
-  <p>Make yourself known worldwide.</p>
+  <p>Track and manage scouts with ease, globally.</p>
 </header>
     </div>
   );
