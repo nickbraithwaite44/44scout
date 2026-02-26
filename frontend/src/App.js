@@ -35,7 +35,7 @@ const Home = () => {
 
   {/* Replace with your custom text */}
   <p className="mt-5">Welcome to 44Scout</p>
-  <p>Track and manage scouts with ease, globally.</p>
+  <p>Make yourself known worldwide</p>
 </header>
     </div>
   );
