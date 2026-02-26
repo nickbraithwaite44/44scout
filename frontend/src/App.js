@@ -23,19 +23,18 @@ const Home = () => {
   return (
     <div>
       <header className="App-header">
-  {/* Replace the link to Emergent with your site or remove it completely */}
-  <a className="App-link" href="/" target="_self" rel="noopener noreferrer">
-    {/* Replace this with your logo */}
+  {/* Clickable logo that goes to homepage */}
+  <a className="App-link" href="/">
     <img 
       src="%PUBLIC_URL%/images/my-logo.png" 
       alt="44Scout Logo" 
-      style={{ width: '120px', height: 'auto' }} // Adjust size if needed
+      style={{ width: '120px', height: 'auto' }} 
     />
   </a>
 
-  {/* Replace with your custom text */}
+  {/* Custom text */}
   <p className="mt-5">Welcome to 44Scout</p>
-  <p>Make yourself known worldwide</p>
+  <p>Make yourself known worldwide.</p>
 </header>
     </div>
   );
